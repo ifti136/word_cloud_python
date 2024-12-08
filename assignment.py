@@ -17,12 +17,10 @@ wc = WordCloud(
     stopwords=STOPWORDS, 
     font_path=path,
     mask=mask, 
-    background_color="white",
+    background_color="black",
     max_words=2000, 
     max_font_size=500,
     random_state=42, 
-    contour_color="black",   # Add outline color
-    contour_width=3,         # Adjust the outline width
     width=mask.shape[1],
     height=mask.shape[0]
 )

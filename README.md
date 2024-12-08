@@ -1,6 +1,7 @@
 # word_cloud_python
 Assignment on word cloud in python.
 1. Install following python libraries
-  pip install wordcloud numpy pillow matplotlib
+  "pip install wordcloud numpy pillow matplotlib"
 2. Download mask image and text file containing datas.
-3. Run code.
+3. Download customized font. (Optional)
+4. Run code.
